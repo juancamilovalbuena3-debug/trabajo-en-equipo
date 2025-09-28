@@ -1,7 +1,9 @@
 <x-guest-layout>
     <x-authentication-card>
         <x-slot name="logo">
-            <x-authentication-card-logo />
+            <h1 style="font-size: 36px; font-weight: bold; font-family: Arial, sans-serif;">
+                <span style="color:#007BFF;">Motrix</span>
+            </h1>
         </x-slot>
 
         <x-validation-errors class="mb-4" />
